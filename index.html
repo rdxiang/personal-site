@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js"></script>
+
+    <title>Rachel Xiang</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/html5shiv.js"></script>
+    <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300|Josefin+Slab' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript">
+        !function ($) {
+            $(function () {
+
+                var $root = $('html, body');
+
+                $('a').click(function () {
+                    var href = $.attr(this, 'href');
+                    $root.animate({
+                        scrollTop: $(href).offset().top
+                    }, 500, function () {
+                        window.location.hash = href;
+                    });
+                    return false;
+                });
+            })
+        }(window.jQuery)
+
+    </script>
+
+</head>
+
+<body>
+<!-- NAVBAR================================================== -->
+<div class="navbar-wrapper">
+    <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">rachelxiang</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#first">Home</a>
+                        </li>
+                        <li>
+                            <a href="#second">Work</a>
+                        </li>
+                        <li>
+                            <a href="#third">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container main">
+
+    <!-- START THE FEATURETTES -->
+    <div id="first"></div>
+    <div class="row one">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h2 class="featurette-heading"><span class="text-muted">Hi, my name is </span>
+                <br>
+                Rachel Xiang</h2>
+
+            <p class="lead">
+                I like programming, painting, and people who read this paragraph. I'm currently a student at University
+                of Michigan, Ann Arbor pursuing a engineering
+                degree in computer science. Welcome to my site.
+            </p>
+        </div>
+
+    </div>
+    <div id="second"></div>
+    <hr class="featurette-divider">
+
+    <div class="row">
+        <div class="col-md-5">
+            <div class="col-md-5">
+                <h3>Current Projects:</h3>
+            </div>
+            <div class="col-md-5" style="background-color: #e67e22">
+                <h4><a href="http://www.kantext.com" target="_blank">Kantext</a></h4>
+                <small> An iOS/web app for languange learning</small>
+            </div>
+            <br>
+            <br>
+
+            <div class="col-md-5" style="background-color: white">
+                <h3>Past Projects:</h3>
+            </div>
+            <div class="col-md-5" style="background-color: #f1c40f">
+                <h4><a href="http://pcep-nhs.netne.net/" target="blank"> PCEP National Honor Society Website </a></h4>
+            </div>
+            <div class="col-md-5" style="background-color: #f39c12">
+                <h4><a href="./contest1/Index.htm" target="_blank">Three Wishes, One World.</a></h4>
+                <small>For the MCWT High School Web Design Contest themed "what would you do with a genie's 3 wishes?"
+                    (1st place) My very first website (which also helped me realize an english major was not in my
+                    future).
+                </small>
+            </div>
+            <div class="col-md-5" style="background-color: #e74c3c">
+                <h4><a href="./contest2/index.html" target="_blank"> Wicker Basket Vs. the Wild.</a></h4>
+                <small>For the MCWT Web Design Contest themed "How would you survive if your hot air balloon ride over
+                    Michigan's U.P. went astray?". (1st place)
+                </small>
+            </div>
+            <div class="col-md-5" style="background-color: #e67e22">
+                <h4><a href="./contest3/index.html" target="_blank">Video Games: Good or Evil?</a></h4>
+                <small>For the UMich Dearborn web design competition (1st Place). We were given 3 (very frantic) hours
+                    to create a website around a
+                    given theme with no planning beforehand.
+                </small>
+            </div>
+
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading"> What I do</h2>
+
+            <p class="speech1">
+                Back in the day, I spent my days curled up using notepad while cursing the existance (or lack thereof)
+                of semicolons. I'm still learning, but I think I've come a long way.
+                Not only have I discovered notepad++ (and many other wonderful inventions), but two internships and
+                three years of programming classes later, I've gained experience with java,
+                C++/C, SQL, HTML/CSS, linux and more.
+
+            </p>
+        </div>
+
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row">
+        <div id="third"></div>
+
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><span class="text-muted"> Questions? Comments? </span> Feel free to contact
+                me. <a href="mailto:rachelxiangg.gmail.com"> <i class="icon-envelope-alt "></i> </a></h2>
+
+            <p class="speech2"></p>
+        </div>
+        <div class="col-md-5">
+
+            <div class="col-md-4" style="background-color: #e67e22">
+                <h2 class="featurette-heading"><a href="mailto:rachelxiangg.gmail.com"> <i
+                        class="icon-envelope-alt "></i> </a></h2>
+            </div>
+            <div class="col-md-4" style="background-color: #e67e22">
+                <i class="icon-envelope-alt "></i>
+            </div>
+            <div class="col-md-4" style="background-color: #e67e22">
+                <i class="icon-envelope-alt "></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- /END THE FEATURETTES -->
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+</div>
+<!-- /.container -->
+
+
+</body>
+</html>

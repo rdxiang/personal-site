@@ -1,0 +1,165 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.png');
+    background-repeat: repeat-x
+}
+
+.poop {
+    margin-top: 400px;
+    margin: auto;
+    width: 902px;
+}
+
+#nav {
+    position: absolute;
+    margin: 0 auto;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#nav li, #nav
+a {
+    height: 47px;
+    display: block;
+}
+
+#list1 {
+    left: 0px;
+    width: 150px;
+}
+
+#list1 {
+    background: url('images/navi3.png') 0 0;
+}
+
+#list1 a:hover {
+    background: url('images/navi3.png') 0 -48px;
+}
+
+#list1 a:active {
+    background: url('images/navi3.png') 0 -95px;
+}
+
+#list2 {
+    left: 150px;
+    width: 150px;
+}
+
+#list2 {
+    background: url('images/navi3.png') -150px 0;
+}
+
+#list2 a:hover {
+    background: url('images/navi3.png') -150px -48px;
+}
+
+#list2 a:active {
+    background: url('images/navi3.png') -150px -95px;
+}
+
+#list3 {
+    left: 300px;
+    width: 150px;
+}
+
+#list3 {
+    background: url('images/navi3.png') -300px 0;
+}
+
+#list3 a:hover {
+    background: url('images/navi3.png') -300px -48px;
+}
+
+#list3 a:active {
+    background: url('images/navi3.png') -300px -95px;
+}
+
+#list4 {
+    left: 450px;
+    width: 150px;
+}
+
+#list4 {
+    background: url('images/navi3.png') -450px 0;
+}
+
+#list4 a:hover {
+    background: url('images/navi3.png') -450px -48px;
+}
+
+#list4 a:active {
+    background: url('images/navi3.png') -450px -95px;
+}
+
+#list5 {
+    left: 600px;
+    width: 150px;
+}
+
+#list5 {
+    background: url('images/navi3.png') -600px 0;
+}
+
+#list5 a:hover {
+    background: url('images/navi3.png') -600px -48px;
+}
+
+#list5 a:active {
+    background: url('images/navi3.png') -600px -95px;
+}
+
+#list6 {
+    left: 750px;
+    width: 150px;
+}
+
+#list6 {
+    background: url('images/navi3.png') -750px 0;
+}
+
+#list6 a:hover {
+    background: url('images/navi3.png') -750px -48px;
+}
+
+#list6 a:active {
+    background: url('images/navi3.png') -750px -95px;
+}
+
+.thissucks {
+    margin: auto;
+    width: 900px;
+    background-color: #FFFFFF;
+}
+
+.panda {
+    margin: auto;
+    width: 900px;
+    height: 149px;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    margin: auto;
+    Width: 900px;
+    height: 28px;
+    background-color: #FD7A2B;
+    position: relative;
+    top: 41px;
+}
+
+p.copyright {
+    text-align: center;
+    font-family: "Arial", Times, serf;
+    color: #FFFFFF;
+    font-size: 11px;
+    position: relative;
+    top: 5px;
+}

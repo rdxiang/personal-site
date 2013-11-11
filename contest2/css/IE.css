@@ -1,0 +1,84 @@
+
+.shadow1 {
+    background-color: rgb(68, 68, 68);
+
+}
+
+.shadow1 {
+    position: relative; /* This protects the inner element from being blurred */
+    padding: 0px;
+    width: 500px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100%;
+    background-color: purple;
+}
+
+<!--
+.gradient {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-image: url('Gradient.png');
+    background-repeat: repeat-x;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -4;
+}
+
+-->
+
+IMG.displayed {
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+IMG.background {
+    position: fixed;
+    top: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -4;
+}
+
+.sliderWrapper {
+    margin: auto;
+    width: 800px;
+
+    border-width: 10px;
+    border-bottom-width: 30px;
+    border-color: #FFFFFF;
+    border-style: solid solid solid solid;
+
+}
+
+.content {
+    position: relative;
+    width: 820px;
+    margin: auto;
+    top: 25px;
+}
+
+.story {
+    width: 500px;
+    height: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+

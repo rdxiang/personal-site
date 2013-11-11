@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rescue</title>
+
+    <script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.fadein img:gt(0)').hide();
+            setInterval(function () {
+                        $('.fadein :first-child').fadeOut()
+                                .next('img').fadeIn()
+                                .end().appendTo('.fadein');
+                    },
+                    5000);
+        });
+    </script>
+    <!-- Garage door files -->
+
+
+    <script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script>
+
+    <link href='css/garagedoor.css' rel='stylesheet' type='text/css'/>
+    <script src="js/garagedoorjQuery.js" type="text/javascript"></script>
+
+
+    <link href="test.css" rel="stylesheet" type="text/css"/>
+
+    <script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script>
+    <script type='text/javascript' src='http://www.wizzud.com/jqdock_examples_folder/jquery.jqDock.min.js'></script>
+    <script src="js/dashboard.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript">
+        $(window).scroll(function () {
+            $('.dockwrapper').css('left', 1 - $(window).scrollLeft());
+        });
+    </script>
+
+
+    <style type="text/css">
+
+        .bear {
+            float: left;
+            position: relative;
+            padding: 10px;
+            height: 320px;
+            width: 260px;
+            margin-top: 20px;
+            color: white;
+            font-family: "Century Gothic";
+            text-align: center;
+            font-size: 12px;
+            background-color: #c189c4;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            behavior: url(PIE.htc);
+        }
+
+        .story {
+            float: right;
+            height: auto;
+            width: 500px;
+        }
+
+        .tent {
+            color: white;
+            font-family: "Century Gothic";
+            text-align: center;
+            font-size: 12px;
+            float: right;
+
+            position: relative;
+            padding: 15px;
+            height: auto;
+            width: 395x;
+            margin-top: 10px;
+            background-color: #c189c4;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            behavior: url(PIE.htc);
+        }
+
+        .everything {
+            height: 980px;
+        }
+
+        .tips {
+            float: left;
+            margin-top: 10px;
+            position: relative;
+            padding: 20px;
+            width: 340px;
+            height: 348px;
+            font-family: "Century Gothic";
+            background-color: #c189c4;
+            color: #FFFFFF;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            behavior: url(PIE.htc);
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+<div class="everything">
+
+
+    <div class="dockwrapper">
+        <img src="images/hotair.png" alt="Our hot air balloon" title=" wheee"/>
+    </div>
+    <div class="header">
+        <img src="images/BannerRescue.png" alt="Title Banner - Rescue"/>
+
+        <div class='garagedoor' id='garagedoor'>
+            <div class='navbar'>
+                <div title='index.html' class='item'>
+                    <div class='underlay'>
+
+                    </div>
+                    <img src='images/blue.png' alt="Home Button" class='overlay'/>
+
+                    <div class='mouse'><img src='images/nothing.gif'/>&nbsp;</div>
+                </div>
+                <div title='food.html' class='item'>
+                    <div class='underlay'>
+
+                    </div>
+                    <img src='images/food.png' alt="Food Button" class='overlay'/>
+
+                    <div class='mouse'><img src='images/nothing.gif'/>&nbsp;</div>
+                </div>
+                <div title='shelter.html' class='item'>
+                    <div class='underlay'>
+
+                    </div>
+                    <img src='images/shelter.png' alt="Shelter Button" class='overlay'/>
+
+                    <div class='mouse'><img src='images/nothing.gif'/>&nbsp;</div>
+                </div>
+                <div title='fire.html' class='item'>
+                    <div class='underlay'>
+
+                    </div>
+                    <img src='images/fire.png' alt="Fire Button" class='overlay'/>
+
+                    <div class='mouse'><img src='images/nothing.gif'/>&nbsp;</div>
+                </div>
+                <div title='rescue.html' class='item'>
+                    <div class='underlay'>
+
+                    </div>
+                    <img src='images/rescue.png' alt="Rescue Button" class='overlay'/>
+
+                    <div class='mouse'><img src='images/nothing.gif'/>&nbsp;</div>
+                </div>
+                <div title='aboutus.html' class='item'>
+                    <div class='underlay'>
+
+                    </div>
+                    <img src='images/about.png' alt="About Us Button" class='overlay'/>
+
+                    <div class='mouse'><img src='images/nothing.gif'/>&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type='text/javascript'>
+        GarageDoor.scrollY = -30;
+        GarageDoor.setBindings('garagedoor');
+    </script>
+
+
+    <div class="story">
+        <b><u>Surviving the Wilderness</b></u>
+        <br>
+        &emsp; Tired after what felt like an eternity of walking in circles, and wondering how Bear Grylls made it look
+        so easy on TV, we sat down on the ground to rest. Suddenly, we spotted a glimmer of light in the distance.
+        Naturally distracted by sparkly objects, we began to walk over to the supernatural sparkle. To our puzzlement,
+        we only discovered what seemed to be a rusty old red lamp. Curious, we did the sensible thing: we poked it with
+        a stick before carefully brushing the dust off. In an instant, we were blinded by a flash of light, and in the
+        distance a faint almost genie-like voice seemed to whisper,
+        "You <i>again?</i> Be careful while 'traveling the world' - but I'll help you out this time."
+        <br> &emsp; Before we could shake off this strange sense of deja-vu, a thunderous roar drowned out our thoughts.
+        The voice was gone, but a helicopter had seen the light! Finally, it was time to go home.
+    </div>
+
+
+    <div class="bear">
+        <img src="images/helicopter.png" alt="helicopter"/>
+        Rescue at last! We won the Hunger Games!
+    </div>
+
+    <div class="tent">
+        <img src="images/lamp.png" alt="lamp"/> <br>
+        The mysterious lamp
+    </div>
+
+    <div class="tips">
+
+        <u><b>Survival Tips</b></u>
+        <br>
+        <br>~ On a sunny day, a mirror is your best signaling device. If you don't have a mirror, polish your canteen
+        cup, your belt buckle, or a similar object that will reflect the sun's rays.
+        <br>~ During the night, a fire's probably your best bet! Make sure you have a nice open area though, you don't
+        want your signal fire to
+        become a forest fire (Remember Smokey the Bear)!
+        <br>~ Be sure to tell people where you are going, and when you plan on returning so if you do go missing,
+        someone will know!
+
+
+    </div>
+
+
+</div>
+
+<div class="footer">
+    <br>
+
+    <div class="secondnav">
+        <b>
+            <a href="index.html"> Home </a> |
+            <a href="food.html"> Food </a> |
+            <a href="shelter.html"> Shelter </a> |
+            <a href="fire.html"> Fire </a> |
+            <a href="rescue.html"> Rescue </a> |
+            <a href="aboutus.html"> About Us </a>
+        </b>
+    </div>
+    <div class="created">
+        Created by Annie Fu & Rachel Xiang 2012
+    </div>
+
+    <a href="http://www.facebook.com/AnnieRachelMcwtWebsite2012?ref=notif&notif_t=fbpage_admin#" target="_blank"><img
+            src="images/facebook.png" border="0" alt="Like us on Facebook!" title="Like us on Facebook!"/></a>
+    <a href="https://plus.google.com/100683278091324756909/posts" target="_blank"><img src="images/google+.png"
+                                                                                       border="0"
+                                                                                       alt="Find Rachel on Google+"
+                                                                                       title="Find Rachel on Google+"/></a>
+    <a href="http://www.youtube.com/user/lyramora?feature=masthead-dropdown" target="_blank"><img
+            src="images/you_tube.png" border="0" alt="Suscribe to us on Youtube" title="Suscribe to us on Youtube"/></a>
+</div>
+
+
+<IMG class="background" src="images/Gradient.png" alt="">
+
+<div class="footerWrapper">
+    <IMG class="displayed" src="images/Trees.png" alt="">
+</div>
+
+
+</body>
+</html>
