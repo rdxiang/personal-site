@@ -17,11 +17,32 @@ h2, h3, h4, h5, h6 {
     font-family: 'Josefin Slab', sans-serif;
 }
 
+footer {
+    padding-top: 100px;
+}
+
+footer a {
+    color: #222;
+}
+
 .row {
     height: auto;
 }
 
-.row .col-md-7 {
+.projects .col-md-5 {
+    background-color: #85D8D8;
+}
+
+.current-project {
+    margin-top: 50px;
+}
+
+.current-project .col-md-3 {
+    background-color: #267F86;
+
+}
+
+.speech {
     background-color: #FF997A;
     color: #FEFEFE;
     padding: 35px;
@@ -41,10 +62,22 @@ a:hover {
     color: #F0F0FF;
 }
 
-.col-md-5 .col-md-5 {
+.box {
     margin: 3px;
     padding: 7px;
     color: #EFEFEF;
+
+}
+
+.contacts {
+    background-color: #85D8D8;
+}
+
+.col-md-6.contact .col-md-3 {
+    margin: 5px;
+    padding: 7px;
+    color: #EFEFEF;
+    text-align: center;
 }
 
 .col-md-5 .col-md-4 {
