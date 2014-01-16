@@ -25,35 +25,6 @@ footer a {
     color: #222;
 }
 
-.row {
-    height: auto;
-}
-
-.projects .col-md-5 {
-    background-color: #85D8D8;
-}
-
-.current-project {
-    margin-top: 50px;
-}
-
-.current-project .col-md-3 {
-    background-color: #267F86;
-
-}
-
-.speech {
-    background-color: #FF997A;
-    color: #FEFEFE;
-    padding: 35px;
-}
-
-/* Set the fixed height of the footer here */
-#footer {
-    height: 60px;
-    background-color: #f5f5f5;
-}
-
 a {
     color: white;
 }
@@ -62,6 +33,9 @@ a:hover {
     color: #F0F0FF;
 }
 
+/*  CONTEXT BOX
+-------------------------------------------------- */
+
 .box {
     margin: 3px;
     padding: 7px;
@@ -69,30 +43,53 @@ a:hover {
 
 }
 
-.contacts {
+.box h3 {
+    color: #666;
+}
+
+.row {
+    height: auto;
+}
+
+/*  PROJECTS (current and past)
+------------------------------------------*/
+.projects .box {
     background-color: #85D8D8;
 }
 
-.col-md-6.contact .col-md-3 {
+.current-project {
+    margin-top: 50px;
+}
+
+.current-project .box {
+    background-color: #267F86;
+
+}
+
+/* CONTACT INFO
+-------------------------------------------------------*/
+
+.contact .box {
+    background-color: #85D8D8;
     margin: 5px;
     padding: 7px;
     color: #EFEFEF;
     text-align: center;
 }
 
-.col-md-5 .col-md-4 {
-    margin: 3px;
-    padding: 7px;
-    color: #EFEFEF;
-}
-
-.col-md-5 .col-md-5 h3 {
-    color: #666;
-
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    background-color: #f5f5f5;
 }
 
 /* THE SPEECH BUBBLE
 ------------------------------------------------------------------------------------------------------------------------------- */
+.speech {
+    background-color: #FF997A;
+    color: #FEFEFE;
+    padding: 35px;
+}
 
 .speech2:after {
     content: "";
@@ -120,7 +117,7 @@ a:hover {
     width: 0;
 }
 
-/* CUSTOMIZE THE NAVBAR
+/*  NAVBAR
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
